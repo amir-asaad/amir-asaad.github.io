@@ -1,0 +1,105 @@
+video {
+  display: block;
+  height: 100%;
+  width: calc(100% - 2rem);
+}
+
+@media screen and (min-width: 500px) {
+  video {
+    width: calc(100%);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  video {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  video {
+    width: 100%;
+  }
+}
+
+.section-title {
+  text-align: center;
+  margin: 2rem 0;
+  font-size: var(--fs-700);
+  font-weight: bold;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.project-card {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  visibility: hidden;
+}
+
+.project-card__texts {
+  grid-column: span 3;
+  position: relative;
+}
+
+.project-card__video {
+  grid-column: span 3;
+  position: relative;
+}
+
+@media screen and (min-width: 800px) {
+  .project-card__texts {
+    grid-column: span 2;
+  }
+
+  .project-card {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .flipped {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column: span 3;
+  }
+}
+
+.animation-slide-from-left {
+  animation: slide-from-left 1s forwards;
+}
+
+@keyframes slide-from-left {
+  from {
+    left: -500px;
+    opacity: 0;
+    visibility: visible;
+  }
+
+  to {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.animation-slide-from-right {
+  animation: slide-from-right 1s forwards;
+}
+
+@keyframes slide-from-right {
+  from {
+    right: -500px;
+    opacity: 0;
+    visibility: visible;
+  }
+
+  to {
+    right: 0;
+    opacity: 1;
+    visibility: visible;
+  }
+}

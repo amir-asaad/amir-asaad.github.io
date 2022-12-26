@@ -1,0 +1,8 @@
+.project-links {
+  gap: 1rem;
+}
+
+.project-links a {
+  border: 1px solid pink;
+  padding: 0 0.5rem;
+}
