@@ -21,3 +21,18 @@
 }
 
 /* Margins end */
+
+/* Padding start */
+.pa-0 {
+  padding: 0;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.px-4 {
+  padding: 0 1rem;
+}
+
+/* Padding end */

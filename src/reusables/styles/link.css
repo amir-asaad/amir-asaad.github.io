@@ -1,0 +1,8 @@
+.link {
+  background-color: var(--color-primary);
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: var(--color-primary-500);
+}
