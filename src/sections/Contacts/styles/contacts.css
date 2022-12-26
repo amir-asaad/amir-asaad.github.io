@@ -1,0 +1,39 @@
+.contacts-section {
+  margin-bottom: 5rem;
+}
+
+.contacts-section form {
+  width: 100%;
+  margin: auto;
+}
+
+.contacts-section input[type='text'],
+.contacts-section input[type='email'],
+.contacts-section textarea {
+  width: 100%;
+}
+
+.contact-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contact-modal-button {
+  padding: 0 1rem;
+  background-color: var(--color-primary);
+  border: 1px solid transparent;
+}
+
+.contact-modal-button:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+  .contacts-section form {
+    max-width: 400px;
+  }
+}

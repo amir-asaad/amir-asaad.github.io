@@ -1,13 +1,13 @@
-import React from 'react';
 import './App.css';
-import Greetings from './sections/Greetings/components/Greetings';
+import Contacts from './sections/Contacts/component/Contacts';
 import Projects from './sections/Projects/components/Projects';
 
 function App() {
   return (
     <div className="App">
-      <Greetings />
       <Projects />
+      <hr className="mb-8" />
+      <Contacts />
     </div>
   );
 }
