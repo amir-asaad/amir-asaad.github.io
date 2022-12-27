@@ -7,7 +7,6 @@ interface Props {
 const ProjectVideo: React.FC<Props> = (props) => {
   return (
     <video
-      controls
       autoPlay
       loop
       muted
