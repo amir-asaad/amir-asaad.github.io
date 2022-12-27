@@ -15,10 +15,9 @@ const About: React.FC = () => {
         />
         <div className="about__texts">
           <p className="mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-            vitae magni reprehenderit, fuga porro eius deleniti hic cumque
-            laudantium iusto inventore minus similique reiciendis ab!
-            Repudiandae atque nam laboriosam accusantium.
+            I am a frontend developer from Manila, Philippines with a
+            bachelor's degree in Applied Physics from University of the
+            Philippines Manila.
           </p>
           <Socials />
           <Skills />
