@@ -11,13 +11,13 @@
 }
 
 .greetings-first-text {
-  animation: typing 1.5s steps(50, end), blinking 0.8s step-end 2;
+  animation: typing 1s steps(50, end), blinking 0.5s step-end 2;
 }
 
 .greetings-second-text {
   width: 0%;
-  animation: typing 2s steps(50, end) 1.8s forwards,
-    blinking 0.8s step-end 1.8s infinite;
+  animation: typing 1.5s steps(50, end) 0.8s forwards,
+    blinking 0.8s step-end 0.8s infinite;
 }
 
 @media screen and (min-width: 400px) {
