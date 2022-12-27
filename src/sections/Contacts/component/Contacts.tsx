@@ -12,8 +12,7 @@ const Contacts = () => {
   const [isSuccessEmail, setIsSuccessEmail] = useState(false);
   const [isOpenModal, setIsOpenModal] = useState(false);
 
-  const [state, handleSubmit] = useForm('xayzwvjq');
-  // const [state, handleSubmit] = useForm('meqwjnkl');
+  const [state, handleSubmit] = useForm('meqwjnkl');
 
   const successEmail = useCallback(() => {
     setEmail('');
