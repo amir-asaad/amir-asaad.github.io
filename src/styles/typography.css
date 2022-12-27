@@ -44,4 +44,9 @@
 
 .fw-bold {
   font-weight: bold;
+  font-style: un;
+}
+
+.text-underline {
+  text-decoration: underline;
 }
