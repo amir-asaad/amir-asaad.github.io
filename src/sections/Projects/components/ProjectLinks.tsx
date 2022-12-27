@@ -22,7 +22,7 @@ const ProjectLinks: React.FC<Props> = (props) => {
         <Link
           text="Source Code"
           imageSrc="/icons/github.svg"
-          linkUrl={props.websiteLink}
+          linkUrl={props.sourceCodeLink}
         />
       </li>
     </ul>
