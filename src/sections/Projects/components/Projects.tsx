@@ -17,7 +17,9 @@ const Projects: React.FC = () => {
         'Developed a Pokedex web app that uses the PokeAPI to display all Pokemon details.',
         "Design is inspired by Rogelio Martines' Pokedex Web Design (https://www.behance.net/gallery/148252385/Pokdex-Web-Design)"
       ],
-      laptopVideo: '/pokedex/pokemon-video-laptop.mov',
+      // laptopVideo: '/pokedex/pokemon-video-laptop.mov',
+      laptopVideo:
+        'https://github.com/amir-asaad/amir-asaad.github.io/raw/main/pokedex/pokemon-video-laptop.mov',
       mobileVideo: '/pokedex/pokemon-video-phone.mov',
       websiteLink: 'https://amir-asaad.github.io/pokemon/',
       sourceCodeLink: 'https://github.com/amir-asaad/pokemon',
@@ -97,7 +99,7 @@ const Projects: React.FC = () => {
                 />
               </div>
               <div className="project-card__video mb-8">
-                <ProjectVideo videoSrc="pokedex/pokemon-video-laptop.mov" />
+                <ProjectVideo videoSrc={project.laptopVideo} />
               </div>
             </div>
           );
