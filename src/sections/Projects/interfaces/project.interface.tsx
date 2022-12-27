@@ -3,6 +3,7 @@ import { TechnologyI } from '../../../reusables/interfaces/technology.interface'
 export interface ProjectsI {
   name: string;
   description: string[];
+  additionalDescription?: JSX.Element;
   laptopVideo: string;
   mobileVideo: string;
   websiteLink: string;

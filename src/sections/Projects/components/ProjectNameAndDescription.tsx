@@ -5,6 +5,7 @@ import '../styles/project-name-and-description.css';
 interface Props {
   name: string;
   description: string[];
+  additionalDescription?: JSX.Element;
 }
 
 const ProjectNameAndDescription: React.FC<Props> = (props) => {
@@ -20,6 +21,7 @@ const ProjectNameAndDescription: React.FC<Props> = (props) => {
             {description}
           </li>
         ))}
+        {props.additionalDescription}
       </ul>
     </div>
   );

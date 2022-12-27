@@ -14,9 +14,23 @@ const Projects: React.FC = () => {
     {
       name: 'Pokedex',
       description: [
-        'Developed a Pokedex web app that uses the PokeAPI to display all Pokemon details.',
-        "Design is inspired by Rogelio Martines' Pokedex Web Design (https://www.behance.net/gallery/148252385/Pokdex-Web-Design)"
+        'Developed a Pokedex web app that uses the PokeAPI to display all Pokemon details.'
       ],
+      additionalDescription: (
+        <li className="mb-2">
+          Design is inspired by{' '}
+          <span>
+            <a
+              href="https://www.behance.net/gallery/148252385/Pokdex-Web-Design"
+              className="white--text text-underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Rogelio Martines' Pokedex Web Design
+            </a>
+          </span>
+        </li>
+      ),
       // laptopVideo: '/pokedex/pokemon-video-laptop.mov',
       laptopVideo:
         'https://github.com/amir-asaad/amir-asaad.github.io/raw/main/pokedex/pokemon-video-laptop.mov',
@@ -91,6 +105,7 @@ const Projects: React.FC = () => {
                 <ProjectNameAndDescription
                   name={project.name}
                   description={project.description}
+                  additionalDescription={project.additionalDescription}
                 />
                 <ProjectTechnology technologies={project.technologies} />
                 <ProjectLinks
