@@ -1,24 +1,12 @@
 video {
   display: block;
   height: 100%;
-  width: calc(100% - 2rem);
-}
-
-@media screen and (min-width: 500px) {
-  video {
-    width: calc(100%);
-  }
+  width: 100%;
 }
 
 @media screen and (min-width: 800px) {
   video {
     margin: auto;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  video {
-    width: 100%;
   }
 }
 
