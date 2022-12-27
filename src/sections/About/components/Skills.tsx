@@ -5,12 +5,12 @@ import '../styles/skills.css';
 
 const Skills: React.FC = () => {
   const [skills] = useState([
-    { text: 'JavaScript', imageUrl: 'javascript' },
-    { text: 'Vue', imageUrl: 'vue' },
-    { text: 'TypeScript', imageUrl: 'typescript' },
-    { text: 'React', imageUrl: 'react' },
-    { text: 'HTML5', imageUrl: 'html5' },
-    { text: 'CSS3', imageUrl: 'css3' }
+    { text: 'JavaScript', imageSrc: 'javascript' },
+    { text: 'Vue', imageSrc: 'vue' },
+    { text: 'TypeScript', imageSrc: 'typescript' },
+    { text: 'React', imageSrc: 'react' },
+    { text: 'HTML5', imageSrc: 'html5' },
+    { text: 'CSS3', imageSrc: 'css3' }
   ]);
 
   return (
@@ -20,7 +20,7 @@ const Skills: React.FC = () => {
         {skills.map((skill, skillIndex) => (
           <li key={`skill-${skillIndex}`}>
             <Technology
-              image={`/about/${skill.imageUrl}.svg`}
+              imageSrc={`/icons/${skill.imageSrc}.svg`}
               text={skill.text}
             />
           </li>

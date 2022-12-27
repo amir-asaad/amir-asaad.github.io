@@ -1,3 +1,5 @@
+import { TechnologyI } from '../../../reusables/interfaces/technology.interface';
+
 export interface ProjectsI {
   name: string;
   description: string[];
@@ -5,7 +7,7 @@ export interface ProjectsI {
   mobileVideo: string;
   websiteLink: string;
   sourceCodeLink: string;
-  technologies: string[];
+  technologies: TechnologyI[];
 }
 
 export interface ProjectLinkI {

@@ -25,7 +25,7 @@ const Socials: React.FC = () => {
             className="pb-4"
           >
             <Link
-              imageSrc={`/about/${socialLink.imageSrc}.svg`}
+              imageSrc={`/icons/${socialLink.imageSrc}.svg`}
               text={socialLink.text}
               linkUrl={socialLink.url}
             />

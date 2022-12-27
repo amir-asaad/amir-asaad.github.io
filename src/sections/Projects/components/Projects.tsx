@@ -21,7 +21,13 @@ const Projects: React.FC = () => {
       mobileVideo: '/pokedex/pokemon-video-phone.mov',
       websiteLink: 'https://amir-asaad.github.io/pokemon/',
       sourceCodeLink: 'https://github.com/amir-asaad/pokemon',
-      technologies: ['TypeScript', 'React', 'HTML', 'CSS', 'Material UI']
+      technologies: [
+        { text: 'TypeScript', imageSrc: 'typescript' },
+        { text: 'React', imageSrc: 'react' },
+        { text: 'HTML', imageSrc: 'html5' },
+        { text: 'CSS', imageSrc: 'css3' },
+        { text: 'Material UI', imageSrc: 'material-ui' }
+      ]
     }
   ]);
 

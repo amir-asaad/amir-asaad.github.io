@@ -1,4 +1,4 @@
-.project-technology__lists {
+/* .project-technology__lists {
   padding: 0;
   display: grid;
   gap: 0.5rem;
@@ -30,4 +30,4 @@
   .project-technology__lists {
     grid-template-columns: repeat(5, 1fr);
   }
-}
+} */
