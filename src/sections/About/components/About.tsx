@@ -10,7 +10,7 @@ const About: React.FC = () => {
       <h2 className="section-title">About</h2>
       <div className="about | mb-8">
         <img
-          src="/about/profile-picture.png"
+          src="/about/profile-picture.jpeg"
           alt="Profile"
         />
         <div className="about__texts">
