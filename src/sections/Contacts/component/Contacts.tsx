@@ -25,7 +25,7 @@ const Contacts = () => {
 
     const data = await handleSubmit($event);
 
-    setIsSuccessEmail(data.ok);
+    setIsSuccessEmail(data.body.ok);
     setIsOpenModal(true);
   };
 
