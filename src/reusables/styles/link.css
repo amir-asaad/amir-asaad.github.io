@@ -3,6 +3,11 @@
   border-radius: 5px;
 }
 
+.link img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
 .link:hover {
   background-color: var(--color-primary-500);
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from '../../../reusables/components/Link';
 
 import '../styles/project-links.css';
 
@@ -9,24 +10,22 @@ interface Props {
 
 const ProjectLinks: React.FC<Props> = (props) => {
   return (
-    <div className="project-links | d-flex justify-content-center mb-8 mt-16">
-      <a
-        className="white--text"
-        href={props.websiteLink}
-        target="_blank"
-        rel="noreferrer"
-      >
-        Website
-      </a>
-      <a
-        className="white--text"
-        href={props.sourceCodeLink}
-        target="_blank"
-        rel="noreferrer"
-      >
-        Source Code
-      </a>
-    </div>
+    <ul className="project-links | list-style-type-none d-flex flex-wrap gap-10 mb-8 mt-16">
+      <li>
+        <Link
+          text="Website"
+          imageSrc={`${'icons/web.png'}`}
+          linkUrl={props.websiteLink}
+        />
+      </li>
+      <li>
+        <Link
+          text="Source Code"
+          imageSrc="/icons/github.svg"
+          linkUrl={props.websiteLink}
+        />
+      </li>
+    </ul>
   );
 };
 

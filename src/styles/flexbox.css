@@ -30,6 +30,14 @@
   flex-wrap: wrap;
 }
 
+.flex-basis-0 {
+  flex-basis: 0;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
 .gap-10 {
   gap: 10px;
 }
